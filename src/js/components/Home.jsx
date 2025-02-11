@@ -36,14 +36,17 @@ const Home = () => {
 	);
 
 	return (
-		<div className="container">
-            <Navbar/>
-			<Jumbotron/>
-			<div className="row">
-				{cardArticles}
+		<div>
+			<div className="container">
+				<Navbar/>
+				<Jumbotron/>
+				<div className="row">
+					{cardArticles}
+				</div>
+				
 			</div>
-			
-		<Footer />
+			<Footer />
+
 		</div>
 	);
 };
